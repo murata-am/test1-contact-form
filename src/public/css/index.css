@@ -1,0 +1,136 @@
+.header {
+    box-shadow: 0px 1px 0px rgb(151, 136, 136);
+    }
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+    text-align: center;
+}
+
+.header__logo {
+    color: #9a8787;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+    border: 1px 1px #5b5555;
+}
+
+
+
+.contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+    color: #9a8787;
+}
+
+.form {
+    margin: 0 auto;
+    border: 100px;
+    width: 70%;
+    text-align: center;
+    color: #887777;
+}
+
+.form__group {
+    display: ;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+}
+
+.form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    background: #fafafa;
+    color: #aaa;
+}
+
+.form__group-title {
+    flex-shrink: 0;
+    width: 150px;
+    text-align: left;
+}
+
+
+
+.form__group-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__select-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.required {
+    color: red;
+    font-weight: bold;
+}
+
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__input--text input,
+.form__input--textarea textarea,
+.form__input--select select {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    background-color: rgba(107, 94, 94, 0.178);
+    flex-direction: row;
+
+    appearance: none;
+}
+
+.form__input--text input {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+
+
+.form__input--textarea textarea {
+    height: 70px;
+}
+
+.form__input--select select {
+    display: flex;
+    align-items: center;
+}
+
+.form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background: #5b5555;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form__label--item {
+    display:flex
+    justify-content: space-between;
+    width:50px;
+}
